@@ -73,7 +73,7 @@
         <fieldset>
           <input type="file" name="file" />
         </fieldset>
-        <fieldset>
+        <fieldset style="display: none">
           <label for="address">url</label>
           <input type="url" name="address" />
         </fieldset>
@@ -110,18 +110,24 @@
         document.getElementById('image').innerHTML = '';
         img.className = 'watermark';
         document.getElementById('image').appendChild(img);
+
+          wmark.init({
+            'position': 'bottom-right',
+            'opacity': 100,
+            'className': 'watermark',
+            'path': 'brazzers.png'
+          });
       } else if (address) {
         document.getElementById('image').innerHTML = '<img src="' + address + '" class="watermark">';
         console.log('<img src="' + address + '" class="watermark">');
+
+          wmark.init({
+            'position': 'bottom-right',
+            'opacity': 100,
+            'className': 'watermark',
+            'path': 'brazzers.png'
+          });
       }
-
-      wmark.init({
-        'position': 'bottom-right',
-        'opacity': 100,
-        'className': 'watermark',
-        'path': 'brazzers.png'
-      });
-
     });
   </script>
 </body>
