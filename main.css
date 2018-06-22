@@ -1,0 +1,74 @@
+body {
+  font-family: system, -apple-system, Roboto, sans-serif;
+  text-align: center;
+  background-color: rgb(41, 41, 41);
+  color: white;
+}
+
+h1 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+fieldset {
+  border: none;
+  padding: 1em;
+}
+
+input[type=url] {
+  border: 1px solid black;
+  font-size: 1rem;
+}
+
+#image {
+    width: 100%;
+    /*overflow: auto;*/
+}
+
+#image img{
+  max-width: 90%;
+}
+
+.zz{
+  color: rgb(255, 217, 0);
+}
+
+.btn{
+  background-color: rgb(255, 230, 0);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.btn a{
+  text-decoration: none;
+}
+
+p a{
+  color: white;
+}
+
+.form{
+  background-color: rgb(116, 116, 116);
+  border:        none;
+  padding:       10px;
+  border-radius: 5px;
+  font-size:     20px;
+}
+
+.example{
+  width:  100%;
+  height: 20%;
+  margin: 10px;
+  line-height: 20%;
+}
+
+.example img{
+  width:  20%;
+  height: 20%;
+}
+
+.trans{
+  
+}
